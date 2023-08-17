@@ -1,3 +1,19 @@
 {
-    "products":
+  "products": [
+    {
+      "id": 1,
+      "name": "Celular",
+      "price": 1990.99
+    },
+    {
+      "id": 2,
+      "name": "Notebook",
+      "price": 2789.99
+    },
+    {
+      "name": "Computador Gamer",
+      "price": 4500.99,
+      "id": 3
+    }
+  ]
 }
