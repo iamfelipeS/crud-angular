@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { inject } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,10 +9,8 @@ import { Router } from '@angular/router';
 })
 export class ProductCrudComponent {
 
-  constructor(private router: Router){
+  private router = inject(Router) //instanciando router para funcionar em toda aplicação
     
-  }
-
   navigateToProductCreate(): void{
     this.router.navigate(['/products/create']);
   }
