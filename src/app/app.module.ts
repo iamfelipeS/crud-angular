@@ -18,6 +18,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { HttpClientModule  } from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { HttpClientModule  } from '@angular/common/http';
     HomeComponent,
     ProductCrudComponent,
     ProductCreateComponent,
+    LoginComponent,
     
   ],
   imports: [
